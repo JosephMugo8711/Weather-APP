@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Check temo
+        weed speed
+        km/hr of the wind
+     -->
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter the city" spellcheck="false"/>
+            <button>
+                <img 
+                src="images/search.png" 
+                width="50"
+                height="50"
+                alt=""
+                />
+            </button>
+        </div>  
+        <div class="weather">
+            <img  src="images/temperature.png"  class="icon"
+            width="70" height="70" alt=""/>
+            <h1 class="temp">10 c</h1>
+            <h2 class="city">New York</h2>
+            <div class="detail">
+                <div class="col">
+                    <img  src="images/humidity.png" width="30" height="30" alt="" /> 
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img  src="images/wind.png" width="30" height="30" alt="" /> 
+                    <div>
+                        <p class="wind">15 KM</p>
+                        <p>Speed</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+       
+        </div>
+    
+    <script src="weather.js"></script>
+</body>
+</html>
